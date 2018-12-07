@@ -1,0 +1,7 @@
+﻿year1-2 01417111 Calculus_I 3 root easy
+year1-2 01418116 Computer_programming 3 01418114 easy
+year1-2 01403111 General_chemistry 4 notroot easy
+year1-2 01175xxx Physical_education 1 notroot easy
+year1-2 01355xxx English 3 notroot easy
+year1-2 01xxxxxx Language 3 notroot easy
+year1-2 01xxxxxx Science_and_mathematics 3 notroot easy

@@ -1,0 +1,6 @@
+﻿year3-2 01132101 Modern_entrepreneur 3 notroot hard
+year3-2 01418332 Systems_operating 4 01418131 hard
+year3-2 01418333 Formal_language_and_automata_theory 3 01418132 hard
+year3-2 01418343 Introduction_to_probabilistic_model 3 notroot hard
+year3-2 01418497 Seminar 1 notroot hard
+year3-2 01xxxxxx เฉพาะเลือก 3 notroot hard

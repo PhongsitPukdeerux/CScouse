@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" stylesheets="@../css/application.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.MainPage">
+   <top>
+      <AnchorPane prefHeight="90.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" layoutX="27.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="3.0" prefWidth="946.0" text="CScouse">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="choiceBox" layoutX="8.0" layoutY="45.0" maxHeight="1.7976931348623157E308" prefHeight="30.0" prefWidth="781.0" />
+            <Button fx:id="selectBtn" layoutX="802.0" layoutY="46.0" mnemonicParsing="false" onAction="#handleSelectButton" prefHeight="28.0" prefWidth="63.0" text="Select" />
+            <Separator layoutY="91.0" prefHeight="7.0" prefWidth="1000.0" />
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <GridPane alignment="TOP_CENTER" BorderPane.alignment="CENTER">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="300.0" minWidth="10.0" prefWidth="315.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="300.0" minWidth="10.0" prefWidth="322.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="300.0" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <TableView fx:id="tableViewEasy" prefHeight="200.0" prefWidth="200.0" stylesheets="@../css/application.css">
+              <columns>
+                <TableColumn fx:id="idEasy" prefWidth="75.0" text="ID" />
+                <TableColumn fx:id="nameEasy" prefWidth="75.0" text="Name" />
+                  <TableColumn fx:id="creditEasy" prefWidth="75.0" text="Credit" />
+                  <TableColumn fx:id="comeFromEasy" prefWidth="75.0" text="Comefrom" />
+              </columns>
+            </TableView>
+            <TableView fx:id="tableViewNormal" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #0392cf;" GridPane.columnIndex="1">
+              <columns>
+                  <TableColumn fx:id="idNormal" prefWidth="75.0" text="ID" />
+                  <TableColumn fx:id="nameNormal" prefWidth="75.0" text="Name" />
+                  <TableColumn fx:id="creditNormal" prefWidth="75.0" text="Credit" />
+                  <TableColumn fx:id="comeFromNormal" prefWidth="75.0" text="Comefrom" />
+              </columns>
+            </TableView>
+            <TableView fx:id="tableViewHard" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ee4035;" GridPane.columnIndex="2">
+              <columns>
+                  <TableColumn fx:id="idHard" prefWidth="75.0" text="ID" />
+                  <TableColumn fx:id="nameHard" prefWidth="75.0" text="Name" />
+                  <TableColumn fx:id="creditHard" prefWidth="75.0" text="Credit" />
+                  <TableColumn fx:id="comeFromHard" prefWidth="75.0" text="Comefrom" />
+              </columns>
+            </TableView>
+         </children>
+      </GridPane>
+   </center>
+   <bottom>
+      <AnchorPane prefHeight="161.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
+         <children>
+            <Separator prefHeight="19.0" prefWidth="1007.0" />
+            <Button fx:id="allCourseBtn" layoutX="445.0" layoutY="45.0" mnemonicParsing="false" onAction="#handleAllCourseButton" prefHeight="59.0" prefWidth="117.0" text="All course" />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>

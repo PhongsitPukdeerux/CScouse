@@ -1,0 +1,6 @@
+﻿year1-1 01418114 Introduction_to_computer_science 4 root easy
+year1-1 01418131 Digtal_computer_logic 3 root easy
+year1-1 01420115 Laboratory_in_abridged_physics 1 notroot easy
+year1-1 01420119 Abridged_physics 3 notroot easy
+year1-1 01355xxx English 3 notroot easy
+year1-1 01xxxxxx Human 3 notroot easy

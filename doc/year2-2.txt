@@ -1,0 +1,6 @@
+﻿year2-2 01417322 Introdutory_linear_algebra 3 01417112 normal
+year2-2 01418216 Principles_of_programming_languages 3 01418116 normal
+year2-2 01418211 Fundamentals_of_database_systems 3 01418116 normal
+year2-2 01418232 Algorithm_design_and_analysis 3 01418231 normal
+year2-2 01175xxx Physical_education 1 notroot normal
+year2-2 01xxxxxx Social_studies 3 notroot normal

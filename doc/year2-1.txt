@@ -1,0 +1,7 @@
+﻿year2-1 01417112 Calculus_II 3 01417111 normal
+year2-1 01418132 Fundamentals_of_computing 4 root normal
+year2-1 01418217 Software_construction 3 01418116 normal
+year2-1 01418231 Data_stuctures 3 01418116 normal
+year2-1 01175xxx Physical_education 1 notroot normal
+year2-1 01355xxx English 3 notroot normal
+year2-1 01xxxxxx Human 3 notroot normal

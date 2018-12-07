@@ -1,0 +1,6 @@
+﻿year3-1 01418321 System_analysis_and_design 3 01418211 normal
+year3-1 01418331 Assembly_language_and_computer_architecture 4 01418131 normal
+year3-1 01418351 Computer_communications_and_protocols 3 01418116 normal
+year3-1 01xxxxxx เฉพาะเลือก 3 notroot easy
+year3-1 01xxxxxx Social_studies 3 notroot easy
+year3-1 01xxxxxx เลือกเสรี 3 notroot hard
